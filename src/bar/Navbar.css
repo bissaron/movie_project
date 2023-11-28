@@ -1,0 +1,112 @@
+
+
+header {
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #121012;
+}
+
+
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #1b1b1f;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.search-box input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #1b1b1f;
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.search-box input {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  color: #adacbb;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.search-box input::placeholder {
+  color: #545B5E;
+  text-align: left; /* จัดให้ placeholder อยู่ตรงกลาง */
+  width: 100%; /* กำหนดความกว้างของ placeholder */
+}
+
+/* เพิ่มคำสั่งด้านล่างเพื่อจัดให้ input และ icon อยู่ตรงกลาง */
+.search-box input,
+.search-icon {
+  margin: auto;
+}
+
+.search-icon {
+  margin-left: 5px;
+  color: #727180;
+  cursor: pointer;
+}
+
+.custom-logo {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#white-logo {
+  color: white;
+}
+
+#red-logo {
+  color: red;
+}
+
+.login-button{
+  border: none;
+  background: red;
+  margin: 0 10px;
+  margin-right: 0px;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+  color: #ffffff;
+  width: 80px;
+  height: 40px; /* กำหนดความสูงของ input */
+  font-size: 16px; /* กำหนดขนาดตัวอักษรใน input */
+  border-radius: 20px;
+
+}
+
+.login-button a {
+  text-decoration: none;
+  color: inherit;
+  
+}

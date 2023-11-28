@@ -1,0 +1,58 @@
+.category-box {
+  background-color: #1b1b1f;
+  padding: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.category-button {
+  border: none;
+  background: none;
+  margin: 0 10px;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+  color: #adacbb;
+}
+
+
+
+
+.category-button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background-color: rgb(255, 0, 0);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s;
+  
+}
+
+.category-button:hover::after {
+  transform: scaleX(1);
+  
+}
+
+
+.category-button a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.category-button:hover a {
+  color: #ffffff; /* สีขาวเมื่อ hover */
+}
+

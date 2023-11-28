@@ -1,0 +1,44 @@
+.center-content {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+
+  }
+  
+
+  
+  .movie-cover {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 300px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+
+  }
+
+  .movie-cover:hover {
+    transform: scale(1.05); /* เพิ่มขนาดเล็กน้อยเมื่อโฮเวอร์ */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* เพิ่มเงาบน movie cover เมื่อโฮเวอร์ */
+  }
+  
+  .movie-frame {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .movie-frame img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+margin-bottom: 10px;
+    border-radius: 10px; /* ปรับค่าตามความต้องการของคุณ */
+  overflow: hidden; /* จำเป็นในการทำขอบโค้ง */
+  }
+  .movie-frame h3,.movie-frame p{
+    color: #ffffff;
+  }
+  
+  
